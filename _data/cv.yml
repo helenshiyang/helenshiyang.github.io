@@ -1,4 +1,4 @@
-- title: General Information
+- title: General Information (Download Full CV ↗)
   type: map
   contents:
     - name: Full Name
@@ -38,6 +38,9 @@
       institution: Online presentation at <a href="https://cdc.ceu.edu/bcccd21" taret="_blank">Budapest CEU Conference on Cognitive Development, Online</a>
       year: January 2021
       description: "Seven-month-olds can learn simple repetition patterns, such as we-fo-we (ABA) or we-fo-fo (ABB), and generalize these rules to sequences of new syllables. While 7-month-olds can learn repetition rules from visual sequences of communicative stimuli, even eleven-month-olds fail to learn non-adjacent ABA rules in sequences of shapes. Some researchers thus claim that sequential rule learning applies preferentially to communicative stimuli. Yet here we show that when visually habituated to a human avatar performing a sequence of non-communicative actions, 9-month-olds can learn adjacent and non-adjacent repetition rules. We also show that infants can learn more complex dependency patterns: item-specific non-adjacent dependencies (AmXiBm; henceforth iNADs) with similar stimuli. While prior behavioral research suggests that infants younger than 15 months have difficulty learning iNADs in spoken artificial languages, our results show that prelingual infants have the computational capacity for learning iNADs, consistent with neurophysiological data. The difficulty to elicit robust behavioral evidence of iNAD learning in other domains may result from limitations on memory. We propose that dynamic human actions constitute a particularly robust stimulus domain for sequential pattern learning because it results in richer memory representations, in part through activation of motor representations. Stimuli perceived as communicative may serve similar role by boosting attention and thereby enhancing sequence memory. Thus, we provide new evidence and a different hypothesis for infants’ learning of non-adjacent repetition rules, and the first behavioral evidence of iNAD learning in 9-month-olds."
+
+    - title: "Download CV for more"
+      year: "..."
 
 #- title: Open Source Projects
 #  type: time_table
