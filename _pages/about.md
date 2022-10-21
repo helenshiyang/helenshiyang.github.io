@@ -2,24 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: This site is currently under construction.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>SGM 617</p>
+    <p>3620 McClintock Avenue</p>
+    <p>Los Angeles, CA 90089</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I am a PhD candidate in the [Department of Psychology](https://dornsife.usc.edu/psyc/) at the [University of Southern California](https://www.usc.edu/). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I received a Bachelor of Arts in Psychology and Linguistics from University of California, Los Angeles in 2018. After graduation, I joined the [USC Language Development Lab](https://dornsife.usc.edu/labs/langdevlab) as a PhD student under the guidance of [Toby Mintz](https://dornsife.usc.edu/tobenmintz). 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research focuses on topics related to language acquisition and the cognitive mechanisms associated with the process: how infants acquire fundamental syntactic knowledge about the language that they are learning, how environmental input affects the mechanism underlying this learning process, what are the constraints for infants and adults to learn statistical patterns from visual and auditory input, etc. 
+
+I was born and raised in [Shenzhen, China](https://en.wikipedia.org/wiki/Shenzhen), and I adopted two cats, Ephesus and FatChoy. 
+
