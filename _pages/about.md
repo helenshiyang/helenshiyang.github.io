@@ -24,5 +24,5 @@ I received a Bachelor of Arts in Psychology and Linguistics from University of C
 
 My research focuses on topics related to language acquisition and the cognitive mechanisms associated with the process: how infants acquire fundamental syntactic knowledge about the language that they are learning, how environmental input affects the mechanism underlying this learning process, what are the constraints for infants and adults to learn statistical patterns from visual and auditory input, etc. 
 
-I was born and raised in [Shenzhen, China](https://en.wikipedia.org/wiki/Shenzhen), and I adopted two cats, Ephesus and FatChoy. 
+I was born and raised in [Shenzhen, China](https://en.wikipedia.org/wiki/Shenzhen), and I adopted two cats, Ephesus and FatChoy (photos [here](https://www.instagram.com/effortlessephesus/)). 
 

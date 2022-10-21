@@ -2,96 +2,82 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Helen Shiyang Lu
+    - name: Pronouns
+      value: She/her/hers
     - name: Languages
-      value: English, German
+      value: English, Mandarin
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Developmental Psychology
+      institution: University of Southern California, Los Angeles, US
+      year: 2018 - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Minor in Quantitative Methods
+    - title: MA in Psychology
+      institution: University of Southern California, Los Angeles, US
+      year: 2018 - 2020
+    - title: BA with Majors in Psychology and Linguistics, Specialization in Computing
+      institution: University of California - Los Angeles, Los Angeles, US
+      year: 2014 - 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Graduated with Department Highest Honors and Summa Cum Laude
 
-- title: Experience
+- title: Recent Conference Presentations
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title:  Human dynamic actions aid non-adjacent dependency learning in both infants and adults
+      institution: Talk presented at <a href="https://www.bcbl.eu/events/statistical-learning/en/" taret="_blank">Interdiscpiplinary Advances in Statistical Learning, Donostia/San Sebastian, Spain</a>
+      year: June 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - "Prior research shows robust learning of adjacent dependencies in humans across different modalities, whereas learning nonadjacent dependencies (NADs; the co-occurrence of a and b in aXb) is more constrained and often requires support from particular properties of the stimulus. We report nine behavioral experiments that examined adults’ and infants’ NAD learning from various types of visual stimuli. We found that for adults, depictions of dynamic action (involving non-human objects) and static images of human agents independently aid NAD learning, with sequences of dynamic human action providing the strongest learning signal. Similarly, we found that when visually habituated to a human agent performing a sequence of actions, 9- month-olds successfully learned adjacent and non-adjacent repetition rules (e.g., ABB and ABA). They also learned NADs embedded in visual sequences depicting human dynamic actions, the earliest age that infants have been shown to learn visual NADs. Taking together the results from our adult and infant experiments, we speculate that human dynamic actions constitute a robust stimulus domain for sequential pattern learning because they enrich memory representations. Richer representations could then result in better recall, and provide a stronger signal for NAD learning."
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title:  "Learning non-adjacent rules and dependencies from human actions in 9-month-old infants: Actions sometimes speaker louder than words."
+      institution: Online presentation at <a href="https://cdc.ceu.edu/bcccd21" taret="_blank">Budapest CEU Conference on Cognitive Development, Online</a>
+      year: January 2021
+      description: "Seven-month-olds can learn simple repetition patterns, such as we-fo-we (ABA) or we-fo-fo (ABB), and generalize these rules to sequences of new syllables. While 7-month-olds can learn repetition rules from visual sequences of communicative stimuli, even eleven-month-olds fail to learn non-adjacent ABA rules in sequences of shapes. Some researchers thus claim that sequential rule learning applies preferentially to communicative stimuli. Yet here we show that when visually habituated to a human avatar performing a sequence of non-communicative actions, 9-month-olds can learn adjacent and non-adjacent repetition rules. We also show that infants can learn more complex dependency patterns: item-specific non-adjacent dependencies (AmXiBm; henceforth iNADs) with similar stimuli. While prior behavioral research suggests that infants younger than 15 months have difficulty learning iNADs in spoken artificial languages, our results show that prelingual infants have the computational capacity for learning iNADs, consistent with neurophysiological data. The difficulty to elicit robust behavioral evidence of iNAD learning in other domains may result from limitations on memory. We propose that dynamic human actions constitute a particularly robust stimulus domain for sequential pattern learning because it results in richer memory representations, in part through activation of motor representations. Stimuli perceived as communicative may serve similar role by boosting attention and thereby enhancing sequence memory. Thus, we provide new evidence and a different hypothesis for infants’ learning of non-adjacent repetition rules, and the first behavioral evidence of iNAD learning in 9-month-olds."
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+#- title: Open Source Projects
+#  type: time_table
+#  contents:
+#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#      year: 2015-now
+#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2020
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - USC Graduate School Summer Research and Writing Grant ($5,000)
+        - Department of Psychology Doctoral Research Grant Award ($3,200)
+        - Department of Psychology Research Continuity Fund ($945)
+    - year: 2018 - Now
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - USC Dornsife PhD Fellowship (covers tuition and living costs)
+    - year: 2018
       items:
-        - Description 1.
-        - Description 2.
+        - UCLA Summa cum Laude
+        - UCLA Department of Psychology Highest Honors
+    - year: 2017
+      items:
+        - UCLA Undergraduate Research Scholars Fellowship ($5,000)
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+#- title: Academic Interests
+#  type: nested_list
+#  contents:
+#    - title: Topic 1.
+#      items: 
+#        - Description 1.
+#        - Description 2.
+#    - title: Topic 2.
+#      items:
+#        - Description 1.
+#        - Description 2.
+
+#- title: Other Interests
+#  type: list
+#  contents:
+#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
