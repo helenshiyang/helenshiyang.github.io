@@ -52,11 +52,14 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2022
+      items:
+        - USC Department of Psychology Doctoral Research Grant Award ($1,600)
     - year: 2020
       items: 
         - USC Graduate School Summer Research and Writing Grant ($5,000)
-        - Department of Psychology Doctoral Research Grant Award ($3,200)
-        - Department of Psychology Research Continuity Fund ($945)
+        - USC Department of Psychology Doctoral Research Grant Award ($3,200)
+        - USC Department of Psychology Research Continuity Fund ($945)
     - year: 2018 - Now
       items: 
         - USC Dornsife PhD Fellowship (covers tuition and living costs)
