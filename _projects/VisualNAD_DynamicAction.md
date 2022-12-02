@@ -13,7 +13,7 @@ Substantial areas of cognitive development are devoted to understanding the proc
 Specifically, this project examines whether dynamic actions (seeing an action carried out in real time vs. seeing slices of the static endpoints of the action) and human agents (whether the action is performed by a human vs. an object) contribute to infants' and adults' visual statistical patterns. You can find related publications in [my publications page](https://helenshiyang.github.io/publications/). 
 
 <details> 
-    <summary><span style="color:blue"><b><i>TL;DR, Explain like I'm a baby!</i></b></span></summary>
+    <summary><span style="color:var(--global-hover-color)"><b><i>TL;DR, Explain like I'm a baby!</i></b></span></summary>
     <p></p>
     <p> You see a caregiver pull out the milk bottle, you know you are in for a delicious treat. Your caregiver might be doing any number of things in between---scratching their heads, looking on their phones, tapping on the milk bottle to check for temperature, etc., but that doesn't matter. You know too well the beginning and end of this sequence of actions. Congratulations! You've discovered your first nonadjacent dependency, items that frequently co-occur but are not next to each other sequentially. <img src="/assets/img/bitmoji-3.jpg" alt="Congrats!" width="50"> </p>
     <p> These patterns are typically harder to learn than if the two items are right next to each other (duh. <img src="/assets/img/bitmoji-4.jpg" alt="duh." width="50">) </p> 
