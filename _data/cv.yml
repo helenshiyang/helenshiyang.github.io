@@ -29,6 +29,20 @@
   type: time_table
   contents:
     - title:  Human dynamic actions aid non-adjacent dependency learning in both infants and adults
+      institution: Talk presented at <a href="https://www.srcd.org/event/srcd-2023-biennial-meeting/">SRCD 2023 Biennial Meeting, Salt Lake City, Utah, US</a>
+      year: March 2023
+      description: 
+        <details>
+          <p> 
+          To learn a language, learners often must infer underlying structural relations from items that surface in linearly non-adjacent positions (e.g., the cat IS chasING the mouse). 
+          Infants showed successful learning of such nonadjacent dependencies (NADs) in artificial languages at 15 months, but not 12 months (Gómez & Maye, 2005). 
+          Although Marchetto and Bonatti (2015) reported evidence of NAD learning in 12-month-olds, participants could have relied on cues that were confounded with NADs in that study. 
+          Yet 12-month-olds are sensitive to distributional-grammatical patterns in their maternal language, some involving non-adjacent relationships (Geffen & Mintz, 2015; Mintz, 2006). 
+          Therefore, further direct investigations into 12-month-old’s ability to learn NADs is needed. Conducted online using Zoom and Pyhab, this study investigates NAD learning in 12-month-olds. We used nonce words presented at a natural speech rate of 3Hz, which supports NAD learning in adults (Wang et al., 2019). 
+          </p>
+        </details>
+
+    - title:  Human dynamic actions aid non-adjacent dependency learning in both infants and adults
       institution: Talk presented at <a href="https://www.bcbl.eu/events/statistical-learning/en/" taret="_blank">Interdiscpiplinary Advances in Statistical Learning, Donostia/San Sebastian, Spain</a>
       year: June 2022
       description: 
@@ -57,22 +71,6 @@
           </p>
         </details>
 
-    - title:  "Learning non-adjacent rules and dependencies from human actions in 9-month-old infants: Actions sometimes speaker louder than words."
-      institution: Online presentation at <a href="https://cdc.ceu.edu/bcccd21" taret="_blank">Budapest CEU Conference on Cognitive Development, Virtual</a>
-      year: January 2021
-      description: 
-        <details>
-          <summary>View full abstract</summary>
-          <p> 
-          Seven-month-olds can learn simple repetition patterns, such as we-fo-we (ABA) or we-fo-fo (ABB), and generalize these rules to sequences of new syllables. 
-          While 7-month-olds can learn repetition rules from visual sequences of communicative stimuli, even eleven-month-olds fail to learn non-adjacent ABA rules in sequences of shapes. 
-          Some researchers thus claim that sequential rule learning applies preferentially to communicative stimuli. 
-          Yet here we show that when visually habituated to a human avatar performing a sequence of non-communicative actions, 9-month-olds can learn adjacent and non-adjacent repetition rules. 
-          We also show that infants can learn more complex dependency patterns---item-specific non-adjacent dependencies (AmXiBm; henceforth iNADs) with similar stimuli. While prior behavioral research suggests that infants younger than 15 months have difficulty learning iNADs in spoken artificial languages, our results show that prelingual infants have the computational capacity for learning iNADs, consistent with neurophysiological data. The difficulty to elicit robust behavioral evidence of iNAD learning in other domains may result from limitations on memory. 
-          We propose that dynamic human actions constitute a particularly robust stimulus domain for sequential pattern learning because it results in richer memory representations, in part through activation of motor representations. Stimuli perceived as communicative may serve similar role by boosting attention and thereby enhancing sequence memory. Thus, we provide new evidence and a different hypothesis for infants’ learning of non-adjacent repetition rules, and the first behavioral evidence of iNAD learning in 9-month-olds.
-          </p>
-        </details>
-
     - title: "Download CV for more"
       year: "..."
 
@@ -86,6 +84,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items:
+        - NSF Doctoral Dissertation Research Improvement Grant Award - Lingusitics ($18,949)
     - year: 2022
       items:
         - USC Department of Psychology Doctoral Research Grant Award ($1,600)
