@@ -28,11 +28,12 @@
 - title: Recent Conference Presentations
   type: time_table
   contents:
-    - title:  Human dynamic actions aid non-adjacent dependency learning in both infants and adults
+    - title: Twelve-month-olds generalize nonadjacent dependencies from artificial speech presented at a natural speech rate
       institution: Talk presented at <a href="https://www.srcd.org/event/srcd-2023-biennial-meeting/">SRCD 2023 Biennial Meeting, Salt Lake City, Utah, US</a>
       year: March 2023
       description: 
         <details>
+          <summary>View full abstract</summary>
           <p> 
           To learn a language, learners often must infer underlying structural relations from items that surface in linearly non-adjacent positions (e.g., the cat IS chasING the mouse). 
           Infants showed successful learning of such nonadjacent dependencies (NADs) in artificial languages at 15 months, but not 12 months (Gómez & Maye, 2005). 
