@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: refereed journal articles and conference proceedings
-years: [2021]
+years: [2021,2023]
 nav: true
 nav_order: 1
 ---
