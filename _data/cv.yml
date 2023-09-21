@@ -6,7 +6,7 @@
     - name: Pronouns
       value: She/her/hers
     - name: Languages
-      value: English, Mandarin
+      value: English (fluent), Mandarin (native), Cantonese (listening proficiency)
 
 - title: Education
   type: time_table
@@ -88,6 +88,7 @@
     - year: 2023
       items:
         - NSF Doctoral Dissertation Research Improvement Grant Award - Lingusitics (Doctoral Dissertation Research The Effects of Language Experience on Statistical Learning in Infants and Adults, Co-PI, $18,949)
+        - Frederick and Dorothy Quimby Memorial Scholarship
     - year: 2022
       items:
         - USC Department of Psychology Doctoral Research Grant Award ($1,600)

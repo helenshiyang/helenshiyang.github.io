@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Learning Patterns from Visual Sequences 
-description: examines what factors contribute to infants' and adults' learning of non-adjacent statistical patterns from visual sequences (click to read more)
+description: examines factors contributing to our learning of non-adjacent statistical patterns from visual sequences (click to read more)
 img: assets/img/LPVS.jpg
 importance: 2
 ---
