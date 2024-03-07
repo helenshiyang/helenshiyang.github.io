@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Helen Shiyang Lu
+      value: Helen Shiyang Lu 吕诗扬
     - name: Pronouns
       value: She/her/hers
     - name: Languages
-      value: English (fluent), Mandarin (native), Cantonese (listening proficiency)
+      value: English (fluent), Mandarin (native), Cantonese (listening proficiency), Spanish (beginner)
 
 - title: Education
   type: time_table
@@ -15,6 +15,7 @@
       institution: University of Southern California, Los Angeles, US
       year: 2018 - Now
       description:
+        - "Dissertation: The effects of language experience on statistical learning in infants and adults'"
         - Minor in Quantitative Methods
     - title: MA in Psychology
       institution: University of Southern California, Los Angeles, US
@@ -28,6 +29,24 @@
 - title: Recent Conference Presentations
   type: time_table
   contents:
+    
+    - title: Investigating non-adjacent dependency learning in 12-month-old infants
+      institution: Poster to be presented at <a href="https://cogdevsoc.org/" target="_blank"> CDS 2024, Pasadena, CA, US</a>
+      year: March 2024
+      description:
+        <details>
+          <summary>View full abstract</summary>
+          <p> 
+          To learn a language, learners must infer underlying structural relations from items that surface in linearly non-adjacent positions. 
+          Infants showed successful learning of such non-adjacent dependencies (NADs) in artificial languages at 15 months, but not at 12 months. 
+          Yet 12-month-olds are sensitive to distributional-grammatical patterns in their native language, some involving non-adjacent relationships. 
+          Since learning NADs may benefit language development, further investigations into 12-month-olds’ ability to learn NADs are needed. C
+          onducted online using a habituation paradigm, this study investigates NAD learning in 12-month-olds. 
+          We have collected data from 81 12-month-olds (41 male, M-age=364.5 days, SD=11.6). We found that infants significantly looked longer to the ungrammatical trials than the grammatical trials, showing evidence for NAD learning. 
+          In exploratory analyses, we found differences in the looking times between English monolingual infants (n=52) and multilingual infants (n=29), but this effect did not interact with grammaticality.
+          </p>
+        </details>
+
     - title: Twelve-month-olds generalize nonadjacent dependencies from artificial speech presented at a natural speech rate
       institution: Talk presented at <a href="https://www.srcd.org/event/srcd-2023-biennial-meeting/">SRCD 2023 Biennial Meeting, Salt Lake City, Utah, US</a>
       year: March 2023
@@ -56,21 +75,6 @@
           Taking together the results from our adult and infant experiments, we speculate that human dynamic actions constitute a robust stimulus domain for sequential pattern learning because they enrich memory representations. Richer representations could then result in better recall, and provide a stronger signal for NAD learning.
           </p>
         </details>
-      
-    - title: Dynamic Action Facilitates Learning of Non-Adjacent Dependencies in Visual Sequences
-      institution: Poster virtually presented at <a href="https://cognitivesciencesociety.org/cogsci-2021/" target="_blank"> the 43rd Annual Meeting of the Cognitive Science Society, Virtual</a>
-      year: July 2021
-      description:
-        <details>
-          <summary>View full abstract</summary>
-          <p> 
-          Many events that humans and other organisms experience contain regularities in which certain elements within an event predict certain others. 
-          While some of these regularities involve tracking the co-occurrences between temporarily adjacent stimuli, others involve tracking the co-occurrences between temporarily distant stimuli (i.e., non-adjacent dependencies, NADs). 
-          Prior research shows robust learning of adjacent dependencies in humans and other species, whereas learning NADs is more difficult, and often requires support from properties of the stimulus to help learners notice the NADs. 
-          Here we report on four experiments that examined NAD learning from various types of visual stimuli. The results suggest that continuous movements aid the acquisition of NADs. We also found that human motion leads to more robust NAD learning compared to object motions, perhaps because of a richer representation. 
-          This richer representation could result in better memory and recall, and provide a stronger signal for NAD learning.
-          </p>
-        </details>
 
     - title: "Download CV for more"
       year: "..."
@@ -89,6 +93,7 @@
       items:
         - NSF Doctoral Dissertation Research Improvement Grant Award - Lingusitics (Doctoral Dissertation Research The Effects of Language Experience on Statistical Learning in Infants and Adults, Co-PI, $18,949)
         - Frederick and Dorothy Quimby Memorial Scholarship
+        - USC Department of Psychology Doctoral Research Grant Award ($1,365)
     - year: 2022
       items:
         - USC Department of Psychology Doctoral Research Grant Award ($1,600)
