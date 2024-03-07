@@ -11,12 +11,11 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Developmental Psychology
+    - title: PhD in Developmental Psychology (minor in Quantitative Methods)
       institution: University of Southern California, Los Angeles, US
       year: 2018 - Now
       description:
-        - "Dissertation: The effects of language experience on statistical learning in infants and adults'"
-        - Minor in Quantitative Methods
+        - *"Dissertation: The effects of language experience on statistical learning in infants and adults"*
     - title: MA in Psychology
       institution: University of Southern California, Los Angeles, US
       year: 2018 - 2020
@@ -25,6 +24,26 @@
       year: 2014 - 2018
       description:
         - Graduated with Department Highest Honors and Summa Cum Laude
+
+- title: Publications
+  type: time_table
+  contents:
+    - year: under review
+      items:
+        - "ManyBabies 5: A large-scale investigation of the proposed shift from familiarity preference to novelty preference in infant looking time."
+
+    - year: 2023
+      items: 
+        - Lu, H. S., & Mintz, T. H. (2023). Dynamic Motion and Human Agents Facilitate Visual Nonadjacent Dependency Learning. *Cognitive Science, 47*(9), e13344.
+
+    - year: 2021
+      items: 
+        - Lu, H. S., & Mintz, T. (2021). Dynamic Action Facilitates Learning of Non-Adjacent Dependencies in Visual Sequences. In *Proceedings of the Annual Meeting of the Cognitive Science Society* (Vol. 43, No. 43).
+        - Lu, H. S., & Mintz, T. H. (2021). Learning non-adjacent rules and non-adjacent dependencies from human actions in 9-month-old infants. *Plos One, 16*(6), e0252959.
+
+    - year: in prep
+      items:
+        - Lu, H. S., & Mintz, T. H. (in prep). "Sensitivity of behavioral tasks in NAD learning: A contrast between 2AFC and familiarity rating methods."
 
 - title: Recent Conference Presentations
   type: time_table
@@ -102,11 +121,9 @@
         - USC Graduate School Summer Research and Writing Grant ($5,000)
         - USC Department of Psychology Doctoral Research Grant Award ($3,200)
         - USC Department of Psychology Research Continuity Fund ($945)
-    - year: 2018 - Now
-      items: 
-        - USC Dornsife PhD Fellowship (covers tuition and living costs)
     - year: 2018
-      items:
+      items: 
+        - USC Dornsife PhD Fellowship (2018-2023)
         - UCLA Summa cum Laude
         - UCLA Department of Psychology Highest Honors
     - year: 2017
