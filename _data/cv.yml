@@ -1,10 +1,10 @@
 - title: To download full CV, click on icon ↗
   type: map
   contents:
-    - name: Full Name
-      value: Helen Shiyang Lu 吕诗扬
-    - name: Pronouns
-      value: She/her/hers
+    - name: Helen Shiyang Lu 吕诗扬
+      value: (she/her/hers)
+    - name: Killam Postdoctoral Research Fellow
+      value: The University of British Columnbia, starting Sep 2024
     - name: Languages
       value: English (fluent), Mandarin (native), Cantonese (listening proficiency), Spanish (beginner)
 
@@ -13,7 +13,7 @@
   contents:
     - title: PhD in Developmental Psychology (minor in Quantitative Methods)
       institution: University of Southern California, Los Angeles, US
-      year: 2018 - Now
+      year: 2018 - 2024
       description:
         - "Dissertation: The effects of language experience on statistical learning in infants and adults"
     - title: MA in Psychology
@@ -30,38 +30,29 @@
   contents:
     
     - title: Task-dependent learning outcomes Successful non-adjacent dependency learning in a rating task but not in 2AFC
-      institution: Poster to be presented at <a href="https://www.bcbl.eu/events/statistical-learning/en/" taret="_blank">Interdiscpiplinary Advances in Statistical Learning, Donostia/San Sebastian, Spain</a>
+      institution: Poster presented at <a href="https://www.bcbl.eu/events/statistical-learning/en/" taret="_blank">Interdiscpiplinary Advances in Statistical Learning, Donostia/San Sebastian, Spain</a>
       year: June 2024
+      description:
+        <a href="https://docs.google.com/presentation/d/1c-PWW7gzix6Khwxn90-asDY72Wf1ffvoDvW99LqwxfU/edit?usp=sharing" target="_blank">View poster</a>
 
     - title: Non-adjacent dependency learning in monolingual and multilingual 12-month-olds An online habituation study
-      institution: Poster to be presented at <a href="https://www.bcbl.eu/events/statistical-learning/en/" taret="_blank">Interdiscpiplinary Advances in Statistical Learning, Donostia/San Sebastian, Spain</a>
+      institution: Poster presented at <a href="https://www.bcbl.eu/events/statistical-learning/en/" taret="_blank">Interdiscpiplinary Advances in Statistical Learning, Donostia/San Sebastian, Spain</a>
       year: June 2024
+      description:
+        <a href="https://docs.google.com/presentation/d/1K5QrV30TIGWCTzL6D7OTiBeGqLvdZLsyPQZCM95sxos/edit?usp=sharing" target="_blank">View poster</a>
 
     - title: Investigating non-adjacent dependency learning in 12-month-old infants
       institution: Poster presented at <a href="https://cogdevsoc.org/" target="_blank"> CDS 2024, Pasadena, CA, US</a>
       year: March 2024
       description:
         <a href="https://helenshiyang.github.io/assets/pdf/CDS2024_Poster_Lu_Mintz.pdf" target="_blank">View poster</a>
-        <details>
-          <summary>View full abstract</summary>
-          <p> 
-          To learn a language, learners must infer underlying structural relations from items that surface in linearly non-adjacent positions. 
-          Infants showed successful learning of such non-adjacent dependencies (NADs) in artificial languages at 15 months, but not at 12 months. 
-          Yet 12-month-olds are sensitive to distributional-grammatical patterns in their native language, some involving non-adjacent relationships. 
-          Since learning NADs may benefit language development, further investigations into 12-month-olds’ ability to learn NADs are needed. C
-          onducted online using a habituation paradigm, this study investigates NAD learning in 12-month-olds. 
-          We have collected data from 81 12-month-olds (41 male, M-age=364.5 days, SD=11.6). We found that infants significantly looked longer to the ungrammatical trials than the grammatical trials, showing evidence for NAD learning. 
-          In exploratory analyses, we found differences in the looking times between English monolingual infants (n=52) and multilingual infants (n=29), but this effect did not interact with grammaticality.
-          </p>
-        </details>
-
 
     - title: Twelve-month-olds generalize nonadjacent dependencies from artificial speech presented at a natural speech rate
       institution: Talk presented at <a href="https://www.srcd.org/event/srcd-2023-biennial-meeting/">SRCD 2023 Biennial Meeting, Salt Lake City, Utah, US</a>
       year: March 2023
       description: 
         <details>
-          <summary>View full abstract</summary>
+          <summary>View abstract</summary>
           <p> 
           To learn a language, learners often must infer underlying structural relations from items that surface in linearly non-adjacent positions (e.g., the cat IS chasING the mouse). 
           Infants showed successful learning of such nonadjacent dependencies (NADs) in artificial languages at 15 months, but not 12 months (Gómez & Maye, 2005). 
@@ -76,7 +67,7 @@
       year: June 2022
       description: 
         <details>
-          <summary>View full abstract</summary>
+          <summary>View abstract</summary>
           <p> 
           Prior research shows robust learning of adjacent dependencies in humans across different modalities, whereas learning nonadjacent dependencies (NADs; the co-occurrence of a and b in aXb) is more constrained and often requires support from particular properties of the stimulus. 
           We report nine behavioral experiments that examined adults’ and infants’ NAD learning from various types of visual stimuli. We found that for adults, depictions of dynamic action (involving non-human objects) and static images of human agents independently aid NAD learning, with sequences of dynamic human action providing the strongest learning signal. 
@@ -98,9 +89,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items:
+        - Killam Postdoctoral Research Fellowship, UBC
     - year: 2023
       items:
-        - NSF Doctoral Dissertation Research Improvement Grant Award - Lingusitics (Doctoral Dissertation Research The Effects of Language Experience on Statistical Learning in Infants and Adults, Co-PI, $18,949)
+        - NSF Doctoral Dissertation Research Improvement Grant Award - Lingusitics (BCS-2234422, Co-PI, $18,949)
         - Frederick and Dorothy Quimby Memorial Scholarship
         - USC Department of Psychology Doctoral Research Grant Award ($1,365)
     - year: 2022
@@ -123,12 +117,13 @@
 - title: Publications
   type: nested_list
   contents:
-    - title: Under review
+    - title: In prep
       items:
-        - ManyBabies 5 A large-scale investigation of the proposed shift from familiarity preference to novelty preference in infant looking time. 
-    - title: In preparation
+        - Lu and Mintz. Task-dependent learning of non-adjacent dependencies Success in a familiarity rating task versus failure in a two-alternative forced-choice task.
+        - Lu and Mintz. Second language learning facilitates non-adjacent dependency learning Effects moderated by specific language.
+    - title: In-principle acceptance
       items:
-        - Lu and Mintz. ensitivity of behavioral tasks in NAD learning A contrast between 2AFC and familiarity rating methods.
+        - Stage 1 Registered Report. ManyBabies 5 A large-scale investigation of the proposed shift from familiarity preference to novelty preference in infant looking time. Nature Human Behaviour. 
     - title: 2023
       items:
         - Lu and Mintz (2023). Dynamic motion and human agents facilitate visual nonadjacent dependency learning. Cognitive Science, 47(9), e13344.
