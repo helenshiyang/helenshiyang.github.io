@@ -1,14 +1,14 @@
-- title: To download full CV, click on icon ↗
+- title: Helen Shiyang Lu 吕诗扬
   type: map
   contents:
-    - name: Helen Shiyang Lu 
-      value: 吕诗扬
     - name: Position
       value: Killam Postdoctoral Fellow, UBC (starting Sep 2024)
     - name: Languages
       value: English (fluent), Mandarin (native), Cantonese (listening proficiency), Spanish (beginner)
     - name: Pronouns
       value: she/her/hers
+    - name: CV
+      value: <a href="https://helenshiyang.github.io/assets/pdf/HSL_CV.pdf" target="_blank">Download here</a>
 
 - title: Education
   type: time_table
@@ -49,37 +49,9 @@
       description:
         <a href="https://helenshiyang.github.io/assets/pdf/CDS2024_Poster_Lu_Mintz.pdf" target="_blank">View poster</a>
 
-    - title: Twelve-month-olds generalize nonadjacent dependencies from artificial speech presented at a natural speech rate
-      institution: Talk presented at <a href="https://www.srcd.org/event/srcd-2023-biennial-meeting/">SRCD 2023 Biennial Meeting, Salt Lake City, Utah, US</a>
-      year: March 2023
-      description: 
-        <details>
-          <summary>View abstract</summary>
-          <p> 
-          To learn a language, learners often must infer underlying structural relations from items that surface in linearly non-adjacent positions (e.g., the cat IS chasING the mouse). 
-          Infants showed successful learning of such nonadjacent dependencies (NADs) in artificial languages at 15 months, but not 12 months (Gómez & Maye, 2005). 
-          Although Marchetto and Bonatti (2015) reported evidence of NAD learning in 12-month-olds, participants could have relied on cues that were confounded with NADs in that study. 
-          Yet 12-month-olds are sensitive to distributional-grammatical patterns in their maternal language, some involving non-adjacent relationships (Geffen & Mintz, 2015; Mintz, 2006). 
-          Therefore, further direct investigations into 12-month-old’s ability to learn NADs is needed. Conducted online using Zoom and Pyhab, this study investigates NAD learning in 12-month-olds. We used nonce words presented at a natural speech rate of 3Hz, which supports NAD learning in adults (Wang et al., 2019). 
-          </p>
-        </details>
-
-    - title:  Human dynamic actions aid non-adjacent dependency learning in both infants and adults
-      institution: Talk presented at <a href="https://www.bcbl.eu/events/statistical-learning/en/" taret="_blank">Interdiscpiplinary Advances in Statistical Learning, Donostia/San Sebastian, Spain</a>
-      year: June 2022
-      description: 
-        <details>
-          <summary>View abstract</summary>
-          <p> 
-          Prior research shows robust learning of adjacent dependencies in humans across different modalities, whereas learning nonadjacent dependencies (NADs; the co-occurrence of a and b in aXb) is more constrained and often requires support from particular properties of the stimulus. 
-          We report nine behavioral experiments that examined adults’ and infants’ NAD learning from various types of visual stimuli. We found that for adults, depictions of dynamic action (involving non-human objects) and static images of human agents independently aid NAD learning, with sequences of dynamic human action providing the strongest learning signal. 
-          Similarly, we found that when visually habituated to a human agent performing a sequence of actions, 9- month-olds successfully learned adjacent and non-adjacent repetition rules (e.g., ABB and ABA). They also learned NADs embedded in visual sequences depicting human dynamic actions, the earliest age that infants have been shown to learn visual NADs. 
-          Taking together the results from our adult and infant experiments, we speculate that human dynamic actions constitute a robust stimulus domain for sequential pattern learning because they enrich memory representations. Richer representations could then result in better recall, and provide a stronger signal for NAD learning.
-          </p>
-        </details>
-
     - title: "Download CV for more"
       year: "..."
+
 
 #- title: Open Source Projects
 #  type: time_table
