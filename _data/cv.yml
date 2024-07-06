@@ -60,6 +60,24 @@
 #      year: 2015-now
 #      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
+- title: Publications
+  type: nested_list
+  contents:
+    - title: In prep
+      items:
+        - Lu and Mintz. Task-dependent learning of non-adjacent dependencies Success in a familiarity rating task versus failure in a two-alternative forced-choice task.
+        - Lu and Mintz. Second language learning facilitates non-adjacent dependency learning Effects moderated by specific language.
+    - title: In-principle acceptance
+      items:
+        - Stage 1 Registered Report. ManyBabies 5 A large-scale investigation of the proposed shift from familiarity preference to novelty preference in infant looking time. Nature Human Behaviour. 
+    - title: 2023
+      items:
+        - Lu and Mintz (2023). Dynamic motion and human agents facilitate visual nonadjacent dependency learning. Cognitive Science, 47(9), e13344.
+    - title: 2021
+      items:
+        - Lu and Mintz (2021). Dynamic action facilitates learning of non-adjacent dependencies in visual sequences. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 43, No. 43).
+        - Lu and Mintz (2021). Learning non-adjacent rules and non-adjacent dependencies from human actions in 9-month-old infants. Plos One, 16(6), e0252959.
+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -88,23 +106,6 @@
       items:
         - UCLA Undergraduate Research Scholars Fellowship ($5,000)
 
-- title: Publications
-  type: nested_list
-  contents:
-    - title: In prep
-      items:
-        - Lu and Mintz. Task-dependent learning of non-adjacent dependencies Success in a familiarity rating task versus failure in a two-alternative forced-choice task.
-        - Lu and Mintz. Second language learning facilitates non-adjacent dependency learning Effects moderated by specific language.
-    - title: In-principle acceptance
-      items:
-        - Stage 1 Registered Report. ManyBabies 5 A large-scale investigation of the proposed shift from familiarity preference to novelty preference in infant looking time. Nature Human Behaviour. 
-    - title: 2023
-      items:
-        - Lu and Mintz (2023). Dynamic motion and human agents facilitate visual nonadjacent dependency learning. Cognitive Science, 47(9), e13344.
-    - title: 2021
-      items:
-        - Lu and Mintz (2021). Dynamic action facilitates learning of non-adjacent dependencies in visual sequences. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 43, No. 43).
-        - Lu and Mintz (2021). Learning non-adjacent rules and non-adjacent dependencies from human actions in 9-month-old infants. Plos One, 16(6), e0252959.
 #- title: Academic Interests
 #  type: nested_list
 #  contents:
