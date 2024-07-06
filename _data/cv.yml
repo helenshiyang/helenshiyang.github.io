@@ -1,12 +1,14 @@
 - title: To download full CV, click on icon ↗
   type: map
   contents:
-    - name: Helen Shiyang Lu 吕诗扬
-      value: (she/her/hers)
-    - name: Killam Postdoctoral Research Fellow
-      value: The University of British Columnbia, starting Sep 2024
+    - name: Helen Shiyang Lu 
+      value: 吕诗扬
+    - name: Position
+      value: Killam Postdoctoral Fellow, The University of British Columnbia (starting Sep 2024)
     - name: Languages
       value: English (fluent), Mandarin (native), Cantonese (listening proficiency), Spanish (beginner)
+    - name: Pronouns
+      value: she/her/hers
 
 - title: Education
   type: time_table
