@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-Courses that I've TA-ed:
+Courses that I've TA-ed at USC:
 
 - Introduction to Psychology (Fall 2018)
 	- Introduction to psychological science, including historical and contemporary approaches. Behavior examined from biological, cognitive, social, developmental, and personality perspectives. Disorders and treatments.
