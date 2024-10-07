@@ -63,9 +63,12 @@
 - title: Publications
   type: nested_list
   contents:
-    - title: In prep
+    - title: Under review
       items:
         - Lu and Mintz. Task-dependent learning of non-adjacent dependencies Success in a familiarity rating task versus failure in a two-alternative forced-choice task.
+
+    - title: In prep
+      items:
         - Lu and Mintz. Second language learning facilitates non-adjacent dependency learning Effects moderated by specific language.
     - title: In-principle acceptance
       items:

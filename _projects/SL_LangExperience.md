@@ -3,7 +3,7 @@ layout: page
 title: Language Experience and Statistical Learning
 description: examines how our statistical learning changes as a function of our language experience (click to read more)
 img: assets/img/LESL.jpg
-importance: 1
+importance: 2
 ---
 
 The broader goal of this project is to understand the mechanisms in infants and adults that allow them to acquire and process regularities in linguistic input that involve non-adjacent dependencies (NADs). The more specific goal is to examine the interactions between the learner’s prior language experience and their ability to learn and generalize from dependency patterns in novel speech input.

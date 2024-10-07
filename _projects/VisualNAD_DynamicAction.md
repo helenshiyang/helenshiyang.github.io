@@ -3,7 +3,7 @@ layout: page
 title: Learning Patterns from Visual Sequences 
 description: examines factors contributing to our learning of non-adjacent statistical patterns from visual sequences (click to read more)
 img: assets/img/LPVS.jpg
-importance: 2
+importance: 3
 ---
 
 Many events that humans and other organisms experience involve temporally ordered sequences. These include visual events, such as watching agents engaging in actions, and machines carrying out functions, as well as auditory events, such as hearing a sequence of words in a spoken sentence, or sounds within words, or even notes in a piece of music. In many cases, these events contain regularities in which certain elements within an event predict certain others. For example, in the action of hammering a nail, the agent first moves the hammer away from the nail, and then forcefully brings the hammer into contact with the nail. In the English present progressive, the copula, <u><i>is</i></u>, is followed by a verb with the inflection <u><i>-ing</i></u>, for example, <i>...<u>is</u> bak<u>ing</u>...</i>. Through experience, individuals learn about aspects of these regularities, and, once noticed, can use them to generate new knowledge, either explicit, such as the understanding of an artifact’s function, or implicit, such as the knowledge of the grammatical rules of one’s native language(s). 

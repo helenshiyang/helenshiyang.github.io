@@ -6,10 +6,12 @@ subtitle: This site is currently under construction.
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: Helen_2024June.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Vancouver, BC</p>
+    <p>2177 Wesbrook Mall</p>
+    <p>Room 443, Friedman Building</p>
+    <p>Vancouver, BC V6T 1Z4</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
