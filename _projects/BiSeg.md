@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Word Segmentation and Multilingualism
-description: examines how experience with more than one languages influences the way people learn to identify words in continuous speech (click to read more)
+description: examines how multilingualism influences the way we identify words in continuous speech (click to read more)
 img: assets/img/biseg_pic.jpg
 importance: 1
 ---
