@@ -30,24 +30,24 @@
 - title: Recent Conference Presentations
   type: time_table
   contents:
+
+    - title: Statistical word segmentation in unfamiliar speech
+      institution: Talk to be presented at <a href="https://cognitivesciencesociety.org/cogsci-2025/" taret="_blank">CogSci 2025, San Francisco, CA, USA</a>
+      year: August 2025
+      description:
+        <a Statistical learning, the ability to detect patterns in sensory input, allows listeners to segment words from continuous speech by tracking transitional probabilities. While this mechanism is robust in familiar contexts, its adaptability to unfamiliar speech with distinct phonological properties remains less understood. This study investigates whether English-speaking adults can use TPs to segment an artificial language modeled on Cantonese. Participants identified words where syllables consistently occurred together (statistical words) and syllables that partially co-occurred (part-words) compared to those that never did (non-words). However, they struggled to distinguish statistical words from part-words when frequency was controlled. Pupillometry results showed participants dilated more to part-words and non-words at test, compared to frequency-controlled statistical words. Pupillary responses during familiarization also predicted test performance, demonstrating the potential of pupillometry to track learning in real time. These findings highlight the flexibility of statistical learning in adapting to novel linguistic contexts while revealing its limitations.</a>
+    
+    - title: How language experience shapes sensitivity to non-adjacent dependencies in 12-month-old infant
+      institution: Poster to be presented at <a href="https://www.bcbl.eu/events/statistical-learning/en/" taret="_blank">SRCD 2025 Biennial Meeting, Minneapolis, MN, USA</a>
+      year: May 2025
+      description:
+        <a href="https://docs.google.com/presentation/d/1Q_qo0yK1YLu8z_ouqGIDno-yHYJMiW2BMGD-idOfmo4/edit?usp=sharing" target="_blank">View poster</a>
     
     - title: Task-dependent learning outcomes Successful non-adjacent dependency learning in a rating task but not in 2AFC
-      institution: Poster presented at <a href="https://www.bcbl.eu/events/statistical-learning/en/" taret="_blank">Interdiscpiplinary Advances in Statistical Learning, Donostia/San Sebastian, Spain</a>
+      institution: Poster presented at <a href="https://www.srcd.org/event/srcd-2025-biennial-meeting" taret="_blank">Interdiscpiplinary Advances in Statistical Learning, Donostia/San Sebastian, Spain</a>
       year: June 2024
       description:
         <a href="https://docs.google.com/presentation/d/1c-PWW7gzix6Khwxn90-asDY72Wf1ffvoDvW99LqwxfU/edit?usp=sharing" target="_blank">View poster</a>
-
-    - title: Non-adjacent dependency learning in monolingual and multilingual 12-month-olds An online habituation study
-      institution: Poster presented at <a href="https://www.bcbl.eu/events/statistical-learning/en/" taret="_blank">Interdiscpiplinary Advances in Statistical Learning, Donostia/San Sebastian, Spain</a>
-      year: June 2024
-      description:
-        <a href="https://docs.google.com/presentation/d/1K5QrV30TIGWCTzL6D7OTiBeGqLvdZLsyPQZCM95sxos/edit?usp=sharing" target="_blank">View poster</a>
-
-    - title: Investigating non-adjacent dependency learning in 12-month-old infants
-      institution: Poster presented at <a href="https://cogdevsoc.org/" target="_blank"> CDS 2024, Pasadena, CA, US</a>
-      year: March 2024
-      description:
-        <a href="https://helenshiyang.github.io/assets/pdf/CDS2024_Poster_Lu_Mintz.pdf" target="_blank">View poster</a>
 
     - title: "Download CV for more"
       year: "..."
@@ -66,13 +66,15 @@
     - title: Under review
       items:
         - Lu and Mintz. Task-dependent learning of non-adjacent dependencies Success in a familiarity rating task versus failure in a two-alternative forced-choice task.
-
     - title: In prep
       items:
         - Lu and Mintz. Second language learning facilitates non-adjacent dependency learning Effects moderated by specific language.
     - title: In-principle acceptance
       items:
         - Stage 1 Registered Report. ManyBabies 5 A large-scale investigation of the proposed shift from familiarity preference to novelty preference in infant looking time. Nature Human Behaviour. 
+    - title: 2025
+      items:
+        - Lu, Werker, and Black (2025). Statistical word segmentation in unfamiliar speech. To appear in Proceedings of the Annual Meeting of the Cognitive Science Society.
     - title: 2023
       items:
         - Lu and Mintz (2023). Dynamic motion and human agents facilitate visual nonadjacent dependency learning. Cognitive Science, 47(9), e13344.
@@ -81,25 +83,28 @@
         - Lu and Mintz (2021). Dynamic action facilitates learning of non-adjacent dependencies in visual sequences. In Proceedings of the Annual Meeting of the Cognitive Science Society (Vol. 43, No. 43).
         - Lu and Mintz (2021). Learning non-adjacent rules and non-adjacent dependencies from human actions in 9-month-old infants. Plos One, 16(6), e0252959.
 
-- title: Honors and Awards
+- title: Awards
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - SRCD 2025 Biennial Meeting Early Career Travel Award (US$500)
     - year: 2024
       items:
-        - Killam Postdoctoral Research Fellowship, UBC
+        - Killam Postdoctoral Research Fellowship, UBC 
     - year: 2023
       items:
-        - NSF Doctoral Dissertation Research Improvement Grant Award - Lingusitics (BCS-2234422, Co-PI, $18,949)
+        - NSF Doctoral Dissertation Research Improvement Grant Award - Lingusitics (BCS-2234422, Co-PI, US$18,949)
         - Frederick and Dorothy Quimby Memorial Scholarship
-        - USC Department of Psychology Doctoral Research Grant Award ($1,365)
+        - USC Department of Psychology Doctoral Research Grant Award (US$1,365)
     - year: 2022
       items:
-        - USC Department of Psychology Doctoral Research Grant Award ($1,600)
+        - USC Department of Psychology Doctoral Research Grant Award (US$1,600)
     - year: 2020
       items: 
-        - USC Graduate School Summer Research and Writing Grant ($5,000)
-        - USC Department of Psychology Doctoral Research Grant Award ($3,200)
-        - USC Department of Psychology Research Continuity Fund ($945)
+        - USC Graduate School Summer Research and Writing Grant (US$5,000)
+        - USC Department of Psychology Doctoral Research Grant Award (US$3,200)
+        - USC Department of Psychology Research Continuity Fund (US$945)
     - year: 2018
       items: 
         - USC Dornsife PhD Fellowship (2018-2023)
@@ -107,7 +112,7 @@
         - UCLA Department of Psychology Highest Honors
     - year: 2017
       items:
-        - UCLA Undergraduate Research Scholars Fellowship ($5,000)
+        - UCLA Undergraduate Research Scholars Fellowship (US$5,000)
 
 #- title: Academic Interests
 #  type: nested_list
