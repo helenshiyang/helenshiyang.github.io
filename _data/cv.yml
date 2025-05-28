@@ -34,6 +34,12 @@
     - title: Statistical word segmentation in unfamiliar speech
       institution: Talk to be presented at <a href="https://cognitivesciencesociety.org/cogsci-2025/" taret="_blank">CogSci 2025, San Francisco, CA, USA</a>
       year: August 2025
+
+    - title: Sgmenting words in two languages Cue weighting of prosodic vs. statistical information in English and Cantonese
+      institution: Poster to be presented at Ensuring Full Literacy 2025 Annual Meeting, Edmonton, AB, Canada
+      year: June 2025
+      description: 
+        <a href="https://helenshiyang.github.io/assets/pdf/EFL2025_Poster_Lu.v3" target="_blank">View poster</a>
       
     - title: How language experience shapes sensitivity to non-adjacent dependencies in 12-month-old infant
       institution: Poster to be presented at <a href="https://www.bcbl.eu/events/statistical-learning/en/" taret="_blank">SRCD 2025 Biennial Meeting, Minneapolis, MN, USA</a>
@@ -61,7 +67,7 @@
 - title: Publications
   type: nested_list
   contents:
-    - title: Under review
+    - title: Under Revision
       items:
         - Lu and Mintz. Task-dependent learning of non-adjacent dependencies Success in a familiarity rating task versus failure in a two-alternative forced-choice task.
     - title: In prep
