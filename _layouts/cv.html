@@ -9,7 +9,22 @@ layout: default
             <p class="post-description">{{ page.description }}</p>
           </header>
 
-          <article>
+          {% if page.cv_pdf %}
+  {% assign cv_url = page.cv_pdf %}
+  {% unless page.cv_pdf contains '://' %}
+    {% assign cv_url = page.cv_pdf | prepend: 'assets/pdf/' | relative_url %}
+  {% endunless %}
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium">Curriculum Vitae (PDF)</h3>
+    <div class="cv-pdf-embed">
+      <object data="{{ cv_url }}" type="application/pdf" style="width:100%; height:85vh; min-height:900px; border: none;">
+        <p>Your browser does not support embedded PDFs. <a href="{{ cv_url }}" target="_blank" rel="noopener noreferrer">Download the CV (PDF)</a>.</p>
+      </object>
+    </div>
+  </div>
+{% endif %}
+
+          <!-- <article>
             <div class="cv">
               {% for entry in site.data.cv %}
                 <div class="card mt-3 p-3">
@@ -30,6 +45,6 @@ layout: default
                 </div>
               {% endfor %}
               </div>
-          </article>
+          </article> -->
 
         </div>
