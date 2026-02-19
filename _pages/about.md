@@ -6,7 +6,7 @@ subtitle: This site is currently under construction.
 
 profile:
   align: left
-  image: Helen_2024June.jpg
+  image: Helen_2025Dec.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>2177 Wesbrook Mall</p>
