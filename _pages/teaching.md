@@ -7,6 +7,11 @@ nav: true
 nav_order: 5
 ---
 
+Course that I've taught at UBC:
+
+- The Psychology of Language (Fall 2025)
+	- Psychological abilities underlying human language, language processing, lexicalrepresentation, principles of online conversation, and animal vs. human communication
+
 Courses that I've TA-ed at USC:
 
 - Introduction to Psychology (Fall 2018)
