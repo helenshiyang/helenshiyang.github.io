@@ -2,6 +2,6 @@
 permalink: /robots.txt
 ---
 User-agent: *
-Disallow:
+Disallow: /teaching/psyc336-2026-lec1
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml

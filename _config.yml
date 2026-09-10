@@ -195,13 +195,20 @@ defaults:
       path: "assets/**/*.*"
     values:
       sitemap: false
+  # Unlisted lecture decks: reachable by direct URL, kept out of sitemap.xml
+  - scope:
+      path: "teaching/**/*.*"
+    values:
+      sitemap: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ['robots.txt']
+  # teaching/** holds pre-built Slidev decks; re-minifying their bundles
+  # with uglifier risks corrupting them, so copy those through verbatim.
+  exclude: ['robots.txt', 'teaching/*']
   uglifier_args:
     harmony: true
 
