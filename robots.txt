@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /teaching/psyc336-2026-lec1
 Disallow: /teaching/psyc336-2026-lec2
+Disallow: /teaching/psyc336-2026-lec3
 
 Sitemap: https://helenshiyang.github.io/sitemap.xml
