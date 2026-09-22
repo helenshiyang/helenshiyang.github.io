@@ -1,0 +1,1 @@
+var e=`/teaching/psyc336-2026-lec4/brain-lobes-broca-wernicke.jpg`;export{e as t};
