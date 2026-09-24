@@ -6,5 +6,6 @@ Disallow: /teaching/psyc336-2026-lec1
 Disallow: /teaching/psyc336-2026-lec2
 Disallow: /teaching/psyc336-2026-lec3
 Disallow: /teaching/psyc336-2026-lec4
+Disallow: /teaching/psyc336-2026-lec5
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
