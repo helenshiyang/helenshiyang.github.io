@@ -18,12 +18,14 @@ These patterns can benefit morphosyntactic acquisition by providing information 
 
 This project focuses on two factors in language experience that may interact with learners’ pattern learning mechanism: The structure of the learner’s particular language, and the number of languages the learner has experience with. This project may help constrain theories of language acquisition, by understanding how learners’ prior experience with language shapes their capacity to learn complex patterns from novel linguistic input, and by gaining deeper insights into the factors that influence NAD learning.
 
+Our work with adult learners, published in [Cognitive Science (2026)](https://doi.org/10.1111/cogs.70221), looks at how experience with a second language relates to NAD learning. We are currently extending this question to infancy, using an online habituation paradigm to study how 12-month-olds growing up with one or more languages learn and generalize non-adjacent dependencies from speech.
+
 
 <details> 
     <summary><span style="color:var(--global-hover-color)"><b><i>TL;DR, Explain like I'm a baby!</i></b></span></summary>
     <p></p>
     <p>You’ve probably heard stories about speakers of certain languages having better pitch or better planning skills. You sure read a lot as a baby! <img src="/assets/img/bitmoji-1.jpg" alt="Good job!" width="50"> </p>
-    <p>These stories typically revolve around specific features of the language—how knowledge of certain languages can affect tasks that don’t have anything to do with language. This project falls under this kind of theme, and the task I would like to examine is our abilities to learn patterns. I look at how the language(s) we speak or learn (natively or non-natively) influences what types of patterns we might be better at learning. This project is in progress. <img src="/assets/img/bitmoji-2.jpg" alt="Stay tuned!" width="50"> In the meantime, see if you can spot a pattern in my research projects. </p>
+    <p>These stories typically revolve around specific features of the language—how knowledge of certain languages can affect tasks that don’t have anything to do with language. This project falls under this kind of theme, and the task I would like to examine is our abilities to learn patterns. I look at how the language(s) we speak or learn (natively or non-natively) influences what types of patterns we might be better at learning. This project is still growing. <img src="/assets/img/bitmoji-2.jpg" alt="Stay tuned!" width="50"> In the meantime, see if you can spot a pattern in my research projects. </p>
 
 </details>
 
