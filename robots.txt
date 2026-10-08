@@ -6,5 +6,6 @@ Disallow: /teaching/psyc336-2026-lec4
 Disallow: /teaching/psyc336-2026-lec5
 Disallow: /teaching/psyc336-2026-lec6
 Disallow: /teaching/psyc336-2026-lec7
+Disallow: /teaching/psyc336-2026-lec8
 
 Sitemap: https://helenshiyang.github.io/sitemap.xml
