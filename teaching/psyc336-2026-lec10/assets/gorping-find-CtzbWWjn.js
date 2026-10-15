@@ -1,0 +1,1 @@
+var e=`/teaching/psyc336-2026-lec10/gorping-find.jpg`;export{e as t};
