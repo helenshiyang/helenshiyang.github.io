@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PSYC 336 grade calculator</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Estimate your PSYC 336 course percentage from your component scores.">
+<style>
+  :root {
+    --bg: #fcfcfb;
+    --card: #ffffff;
+    --ink: #1a1a19;
+    --ink-2: #53524c;
+    --ink-3: #8c8b82;
+    --line: #e3e2db;
+    --accent: #2a78d6;
+    --accent-soft: #eaf2fd;
+    --good: #15803d;
+    --track: #e6e5de;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a19;
+      --card: #232321;
+      --ink: #f0efec;
+      --ink-2: #c3c2b7;
+      --ink-3: #8c8b82;
+      --line: #3a3a36;
+      --accent: #3987e5;
+      --accent-soft: #1e2b3d;
+      --good: #4ade80;
+      --track: #3a3a36;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2rem 1rem 4rem;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.5 "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 1.75rem; font-weight: 600; margin: 0 0 .35rem; letter-spacing: -.01em; }
+  .lede { color: var(--ink-2); margin: 0 0 2rem; }
+  h2 {
+    font-size: .8rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; color: var(--ink-3); margin: 2rem 0 .75rem;
+  }
+  fieldset { border: 0; margin: 0; padding: 0; }
+  legend { padding: 0; }
+
+  /* option picker */
+  .options { display: grid; gap: .6rem; }
+  @media (min-width: 560px) { .options { grid-template-columns: 1fr 1fr; } }
+  .opt { position: relative; }
+  .opt input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .opt label { display: block; }
+  .opt span {
+    display: block; padding: .9rem 1rem; border: 1px solid var(--line);
+    border-radius: 12px; background: var(--card); cursor: pointer;
+  }
+  .opt b { display: block; font-size: 1.02rem; margin-bottom: .2rem; }
+  .opt small { color: var(--ink-2); font-size: .88rem; }
+  .opt input:checked + label span { border-color: var(--accent); background: var(--accent-soft); }
+  .opt input:focus-visible + label span { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* sliders */
+  .row { padding: .85rem 0; border-bottom: 1px solid var(--line); }
+  .row:last-child { border-bottom: 0; }
+  .row.hidden { display: none; }
+  .row-head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+  .row-head label { font-weight: 600; }
+  .weight { color: var(--ink-3); font-size: .85rem; font-weight: 400; }
+  .val { font-variant-numeric: tabular-nums; color: var(--accent); font-weight: 700; white-space: nowrap; }
+  .hint { color: var(--ink-3); font-size: .82rem; margin-top: .15rem; }
+  input[type=range] {
+    -webkit-appearance: none; appearance: none; width: 100%; margin: .7rem 0 0;
+    background: transparent; cursor: pointer;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    height: 6px; border-radius: 3px; background: var(--track);
+  }
+  input[type=range]::-moz-range-track { height: 6px; border-radius: 3px; background: var(--track); }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; appearance: none; width: 22px; height: 22px; margin-top: -8px;
+    border-radius: 50%; background: var(--accent); border: 3px solid var(--card);
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+  }
+  input[type=range]::-moz-range-thumb {
+    width: 16px; height: 16px; border-radius: 50%; background: var(--accent);
+    border: 3px solid var(--card); box-shadow: 0 1px 3px rgba(0,0,0,.25);
+  }
+  input[type=range]:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+
+  /* result */
+  .result {
+    margin-top: 2rem; padding: 1.5rem; border-radius: 14px;
+    background: var(--card); border: 1px solid var(--line); text-align: center;
+  }
+  .big { font-size: 3.4rem; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+  .big-label { color: var(--ink-2); margin-top: .4rem; }
+  .capped { color: var(--good); font-size: .88rem; margin-top: .5rem; }
+
+  table { width: 100%; border-collapse: collapse; margin-top: 1.25rem; font-size: .94rem; }
+  th, td { padding: .45rem .3rem; text-align: right; border-bottom: 1px solid var(--line); }
+  th:first-child, td:first-child { text-align: left; }
+  thead th { color: var(--ink-3); font-weight: 600; font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; }
+  tbody td { font-variant-numeric: tabular-nums; }
+  tfoot td { font-weight: 700; border-bottom: 0; padding-top: .6rem; }
+
+  .note { color: var(--ink-3); font-size: .85rem; margin-top: 2rem; line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>PSYC 336 grade calculator</h1>
+  <p class="lede">Drag the sliders to see where your course percentage lands.</p>
+
+  <fieldset>
+    <legend><h2>Which grading option did you pick?</h2></legend>
+    <div class="options">
+      <div class="opt">
+        <input type="radio" name="opt" id="opt1" value="1" checked>
+        <label for="opt1"><span>
+          <b>Option 1</b>
+          <small>iClicker 8%, quizzes 20%, exams 72%</small>
+        </span></label>
+      </div>
+      <div class="opt">
+        <input type="radio" name="opt" id="opt2" value="2">
+        <label for="opt2"><span>
+          <b>Option 2</b>
+          <small>no iClicker, quizzes 20%, exams 80%</small>
+        </span></label>
+      </div>
+    </div>
+  </fieldset>
+
+  <h2>Your scores</h2>
+  <div id="rows"></div>
+
+  <div class="result" aria-live="polite">
+    <div class="big"><span id="total">0.0</span>%</div>
+    <div class="big-label">estimated course percentage</div>
+    <div class="capped" id="capnote" hidden>Extra credit took you past 100, so this is capped at 100.</div>
+
+    <table>
+      <thead>
+        <tr><th>Component</th><th>Your score</th><th>Worth</th><th>Earned</th></tr>
+      </thead>
+      <tbody id="breakdown"></tbody>
+      <tfoot>
+        <tr><td>Total</td><td></td><td id="wsum"></td><td id="esum"></td></tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <p class="note">
+    This is an estimate you control, not your real grade. It uses the weights in the
+    syllabus and whatever numbers you type in, so it is only as good as those.
+    Your official marks are on Canvas.
+  </p>
+
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  // Weights from the syllabus. Percent of the final grade.
+  var WEIGHTS = {
+    1: { iclicker: 8, quiz: 20, mt1: 18, mt2: 18, fin: 36 },
+    2: {               quiz: 20, mt1: 20, mt2: 20, fin: 40 }
+  };
+
+  // unit "pct"    -> slider is a percentage of that component
+  // unit "points" -> slider is raw percentage points of the final grade
+  var FIELDS = [
+    { id: "iclicker", name: "iClicker",      unit: "points", max: 8, step: 0.5, start: 8,
+      hint: "0.5 points per lecture. 16 of the 22 lectures maxes it out." },
+    { id: "quiz",     name: "Quizzes",       unit: "pct", max: 100, step: 0.5, start: 90,
+      hint: "Your average across the five that count, after the lowest is dropped." },
+    { id: "mt1",      name: "Midterm 1",     unit: "pct", max: 100, step: 0.5, start: 71 },
+    { id: "mt2",      name: "Midterm 2",     unit: "pct", max: 100, step: 0.5, start: 71 },
+    { id: "fin",      name: "Final exam",    unit: "pct", max: 100, step: 0.5, start: 71 },
+    { id: "hsp",      name: "HSP extra credit", unit: "points", max: 3, step: 0.5, start: 0,
+      hint: "Research participation or library assignments, up to 3 points on top." }
+  ];
+
+  var rows = document.getElementById("rows");
+  var inputs = {};
+
+  FIELDS.forEach(function (f) {
+    var row = document.createElement("div");
+    row.className = "row";
+    row.id = "row-" + f.id;
+
+    var head = document.createElement("div");
+    head.className = "row-head";
+
+    var label = document.createElement("label");
+    label.setAttribute("for", "in-" + f.id);
+    label.textContent = f.name;
+    var w = document.createElement("span");
+    w.className = "weight";
+    w.id = "w-" + f.id;
+    label.appendChild(document.createTextNode(" "));
+    label.appendChild(w);
+
+    var val = document.createElement("span");
+    val.className = "val";
+    val.id = "v-" + f.id;
+
+    head.appendChild(label);
+    head.appendChild(val);
+    row.appendChild(head);
+
+    if (f.hint) {
+      var h = document.createElement("div");
+      h.className = "hint";
+      h.textContent = f.hint;
+      row.appendChild(h);
+    }
+
+    var input = document.createElement("input");
+    input.type = "range";
+    input.id = "in-" + f.id;
+    input.min = 0;
+    input.max = f.max;
+    input.step = f.step;
+    input.value = f.start;
+    row.appendChild(input);
+
+    rows.appendChild(row);
+    inputs[f.id] = input;
+    input.addEventListener("input", render);
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll('input[name="opt"]'), function (r) {
+    r.addEventListener("change", render);
+  });
+
+  function option() {
+    return document.querySelector('input[name="opt"]:checked').value;
+  }
+
+  function fmt(n) {
+    return (Math.round(n * 10) / 10).toString();
+  }
+
+  function render() {
+    var weights = WEIGHTS[option()];
+    var body = document.getElementById("breakdown");
+    body.textContent = "";
+
+    var earned = 0, weightSum = 0;
+
+    FIELDS.forEach(function (f) {
+      var row = document.getElementById("row-" + f.id);
+      var isHsp = f.id === "hsp";
+      var weight = isHsp ? null : weights[f.id];
+
+      // a component that this option does not use disappears entirely
+      if (!isHsp && weight === undefined) {
+        row.classList.add("hidden");
+        return;
+      }
+      row.classList.remove("hidden");
+
+      var raw = parseFloat(inputs[f.id].value);
+      var points, scoreText;
+
+      if (f.unit === "points") {
+        points = raw;
+        scoreText = fmt(raw) + " of " + f.max;
+        document.getElementById("v-" + f.id).textContent = fmt(raw) + " / " + f.max;
+      } else {
+        points = raw * weight / 100;
+        scoreText = fmt(raw) + "%";
+        document.getElementById("v-" + f.id).textContent = fmt(raw) + "%";
+      }
+
+      var wLabel = document.getElementById("w-" + f.id);
+      wLabel.textContent = isHsp ? "up to 3 points" : "worth " + weight + "%";
+
+      earned += points;
+      if (!isHsp) weightSum += weight;
+
+      var tr = document.createElement("tr");
+      [f.name, scoreText, isHsp ? "+3 max" : weight + "%", fmt(points)].forEach(function (cell, i) {
+        var td = document.createElement("td");
+        td.textContent = cell;
+        tr.appendChild(td);
+      });
+      body.appendChild(tr);
+    });
+
+    var capped = earned > 100;
+    document.getElementById("total").textContent = fmt(capped ? 100 : earned);
+    document.getElementById("capnote").hidden = !capped;
+    document.getElementById("wsum").textContent = weightSum + "%";
+    document.getElementById("esum").textContent = fmt(earned);
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>

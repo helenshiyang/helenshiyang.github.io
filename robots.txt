@@ -10,5 +10,6 @@ Disallow: /teaching/psyc336-2026-lec8
 Disallow: /teaching/psyc336-2026-lec9
 Disallow: /teaching/psyc336-2026-lec10
 Disallow: /teaching/psyc336-2026-lec11
+Disallow: /teaching/psyc336-2026-grade-calculator
 
 Sitemap: https://helenshiyang.github.io/sitemap.xml
