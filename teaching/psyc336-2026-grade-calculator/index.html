@@ -43,7 +43,7 @@
     -webkit-text-size-adjust: 100%;
   }
   .wrap { max-width: 680px; margin: 0 auto; }
-  h1 { font-size: 1.75rem; font-weight: 600; margin: 0 0 .35rem; letter-spacing: -.01em; }
+  h1 { font-size: 1.75rem; font-weight: 600; margin: 0 0 1.75rem; letter-spacing: -.01em; }
   .lede { color: var(--ink-2); margin: 0 0 2rem; }
   h2 {
     font-size: .8rem; font-weight: 700; text-transform: uppercase;
@@ -95,6 +95,18 @@
   }
   input[type=range]:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 
+  .num {
+    display: inline-flex; align-items: baseline; gap: .4rem;
+  }
+  .num input {
+    width: 5.2rem; padding: .35rem .5rem; text-align: right;
+    font: inherit; font-weight: 700; font-variant-numeric: tabular-nums;
+    color: var(--accent); background: var(--card);
+    border: 1px solid var(--line); border-radius: 8px;
+  }
+  .num input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .num .of { color: var(--ink-3); font-size: .9rem; }
+
   /* result */
   .result {
     margin-top: 2rem; padding: 1.5rem; border-radius: 14px;
@@ -118,7 +130,6 @@
 <div class="wrap">
 
   <h1>PSYC 336 grade calculator</h1>
-  <p class="lede">Drag the sliders to see where your course percentage lands.</p>
 
   <fieldset>
     <legend><h2>Which grading option did you pick?</h2></legend>
@@ -160,9 +171,9 @@
   </div>
 
   <p class="note">
-    This is an estimate you control, not your real grade. It uses the weights in the
-    syllabus and whatever numbers you type in, so it is only as good as those.
-    Your official marks are on Canvas.
+    This is a simulation of a possible course grade, not your actual grade. It uses the
+    weights in the syllabus and whatever numbers you enter. The actual final grade also
+    depends on whether scaling is required by the end of the course.
   </p>
 
 </div>
@@ -180,14 +191,14 @@
   // unit "pct"    -> slider is a percentage of that component
   // unit "points" -> slider is raw percentage points of the final grade
   var FIELDS = [
-    { id: "iclicker", name: "iClicker",      unit: "points", max: 8, step: 0.5, start: 8,
-      hint: "0.5 points per lecture. 16 of the 22 lectures maxes it out." },
-    { id: "quiz",     name: "Quizzes",       unit: "pct", max: 100, step: 0.5, start: 90,
-      hint: "Your average across the five that count, after the lowest is dropped." },
-    { id: "mt1",      name: "Midterm 1",     unit: "pct", max: 100, step: 0.5, start: 71 },
-    { id: "mt2",      name: "Midterm 2",     unit: "pct", max: 100, step: 0.5, start: 71 },
-    { id: "fin",      name: "Final exam",    unit: "pct", max: 100, step: 0.5, start: 71 },
-    { id: "hsp",      name: "HSP extra credit", unit: "points", max: 3, step: 0.5, start: 0,
+    { id: "iclicker", name: "iClicker", unit: "points", kind: "slider", max: 8, step: 0.5, start: 0,
+      hint: "0.5 points per lecture, attend 16 out of 22 to earn the full 8%." },
+    { id: "quiz",     name: "Quizzes",  unit: "points", kind: "number", max: 20, step: 0.1, start: 0,
+      hint: "We drop your lowest quiz of the 6, so add up the 5 you scored best. 20 points in total." },
+    { id: "mt1",      name: "Midterm 1",  unit: "pct", kind: "slider", max: 100, step: 0.5, start: 0 },
+    { id: "mt2",      name: "Midterm 2",  unit: "pct", kind: "slider", max: 100, step: 0.5, start: 0 },
+    { id: "fin",      name: "Final exam", unit: "pct", kind: "slider", max: 100, step: 0.5, start: 0 },
+    { id: "hsp",      name: "HSP extra credit", unit: "points", kind: "slider", max: 3, step: 0.5, start: 0,
       hint: "Research participation or library assignments, up to 3 points on top." }
   ];
 
@@ -227,13 +238,28 @@
     }
 
     var input = document.createElement("input");
-    input.type = "range";
     input.id = "in-" + f.id;
     input.min = 0;
     input.max = f.max;
     input.step = f.step;
     input.value = f.start;
-    row.appendChild(input);
+
+    if (f.kind === "number") {
+      input.type = "number";
+      input.inputMode = "decimal";
+      var box = document.createElement("span");
+      box.className = "num";
+      box.appendChild(input);
+      var of = document.createElement("span");
+      of.className = "of";
+      of.textContent = "of " + f.max;
+      box.appendChild(of);
+      val.appendChild(box);       // the typed box sits where the read-out would be
+      val.classList.add("typed");
+    } else {
+      input.type = "range";
+      row.appendChild(input);
+    }
 
     rows.appendChild(row);
     inputs[f.id] = input;
@@ -249,7 +275,7 @@
   }
 
   function fmt(n) {
-    return (Math.round(n * 10) / 10).toString();
+    return (Math.round(n * 10) / 10).toFixed(1);
   }
 
   function render() {
@@ -274,10 +300,16 @@
       var raw = parseFloat(inputs[f.id].value);
       var points, scoreText;
 
+      if (!isFinite(raw)) raw = 0;
+      if (raw < 0) raw = 0;
+      if (raw > f.max) raw = f.max;
+
       if (f.unit === "points") {
         points = raw;
         scoreText = fmt(raw) + " of " + f.max;
-        document.getElementById("v-" + f.id).textContent = fmt(raw) + " / " + f.max;
+        if (f.kind !== "number") {
+          document.getElementById("v-" + f.id).textContent = fmt(raw) + " / " + f.max;
+        }
       } else {
         points = raw * weight / 100;
         scoreText = fmt(raw) + "%";
