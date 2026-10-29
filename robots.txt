@@ -14,6 +14,7 @@ Disallow: /teaching/psyc336-2026-lec9
 Disallow: /teaching/psyc336-2026-lec10
 Disallow: /teaching/psyc336-2026-lec11
 Disallow: /teaching/psyc336-2026-lec13
+Disallow: /teaching/psyc336-2026-lec14
 Disallow: /teaching/psyc336-2026-grade-calculator
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
